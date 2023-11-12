@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejercicio 6</title>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="description" content="Ejemplo HTML5">
+    <meta name="keywords" content="HTML5, Formularios">
+    <meta name="author" content="Daniel">
+</head>
+<body>
+
+    <h1>Underground Fitness Gym</h1>
+    
+    <h2>Encuesta de Satisfacción</h2>
+    
+<form action="">
+    <fieldset>
+
+        <legend>DATOS PERSONALES</legend>
+       
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="var_Nombre" id="Nombre"> <br> <br>
+       
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" name="var_Apellidos" id="Apellidos"> <br> <br>
+        
+        Género:
+
+        <br>
+
+        <input type="radio" id="Masculino" name="Sexo" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+
+        <input type="radio" id="Femenino" name="Sexo" value="Femenino">
+        <label for="Femenino">Femenino</label><br>
+
+        <input type="radio" id="Otro" name="Sexo" value="Otro">
+        <label for="Otro">Otro</label><br><br>
+
+        Fecha de Nacimiento:
+
+        <br>
+
+        <input type="date" id="Fecha" name="Fecha" value="Fecha">
+        <label for="Fecha"></label><br><br> 
+    
+    </fieldset>
+    
+    <br><br>
+
+    <fieldset>
+
+        <legend>CLASES A LAS QUE ASISTE</legend>
+
+        <input type="checkbox" id="Spinning" name="Clases_Asiste" value="Spinning">
+        <label for="Spinning"> Spinning</label>
+        
+        <input type="checkbox" id="Body Pump" name="Clases_Asiste" value="Body Pump">
+        <label for="Body Pump"> Body Pump</label>
+       
+        <input type="checkbox" id="Pilates" name="Clases_Asiste" value="Pilates">
+        <label for="Pilates"> Pilates</label><br>
+
+        <input type="checkbox" id="Step" name="Clases_Asiste" value="Step">
+        <label for="Step"> Step</label>
+
+        <input type="checkbox" id="Natación" name="Clases_Asiste" value="Natación">
+        <label for="Natación"> Natación</label>
+
+        <input type="checkbox" id="Body Combat" name="Clases_Asiste" value="Body Combat">
+        <label for="Body Combat"> Body Combat</label>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+
+        <legend>ZONAS MÁS USADAS</legend>
+        
+        <label for="Zonas"></label>
+
+        <select name="zonas_Usadas" id="zonas" multiple>
+          <option value="Piscina">Piscina</option>
+          <option value="Vestuario">Vestuario</option>
+          <option value="Sala de musculación">Sala de musculación</option>
+          <option value="Zona de estiramientos">Zona de estiramientos</option>
+          <option value="Zona cardiovascular">Zona cardiovascular</option>
+          <option value="Zona de entrenamiento funcional">Zona de entrenamiento funcional</option>
+          <option value="Sala polivalente">Sala polivalente</option>
+        </select>
+
+        <br><br>
+
+        <label for="veces_semana">Veces por semana</label> <br>
+
+        <select name="veces_semana" id="veces_semana">
+          <option value="Menos de 3 veces" align="center"><3</option>
+          <option value="3 veces" align="center">3</option>
+          <option value="Más de 3 veces" align="center">>3</option>
+        </select>
+
+    </fieldset>
+
+    <br><br><br>
+
+    <label for="Sugerencias">Sugerencias:</label> <br>
+    <textarea name="Sugerencias" id="Sugerencias" cols="30" rows="5"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form> 
+
+</body>
+
+</html> 
