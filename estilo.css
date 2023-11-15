@@ -1,15 +1,13 @@
-h2 {
-    color: orange;
-}
+ol, ul, h2 {color: violet;}
 
-ol {
-    color: cadetblue;
-}
+h2 {color: orange;}
 
-ul {
-    color: brown;
-}
+ol {color: cadetblue;}
 
-.azul {
-    color: blue;
-}
+ul {color: brown;}
+
+.azul {color: blue;}
+
+.platano{color: darkgoldenrod;}
+
+#titulo1{color: blueviolet;}
