@@ -3,9 +3,13 @@ h2 {
 }
 
 ol {
-    color: blue;
+    color: cadetblue;
 }
 
 ul {
     color: brown;
+}
+
+.azul {
+    color: blue;
 }
