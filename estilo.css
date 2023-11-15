@@ -1,8 +1,11 @@
-
 h2 {
     color: orange;
 }
-ol{
+
+ol {
     color: blue;
 }
-ul{color: brown;}
+
+ul {
+    color: brown;
+}
