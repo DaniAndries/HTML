@@ -1,0 +1,15 @@
+
+/*La diferencia entre hacerlo en CSS y hacerlo en el Index es que los cambios hechos en CSS se aplican a todos los documentos 
+vinculados mientras que en Index es individual de ésa página específica */
+
+header {
+    color: skyblue;
+}
+
+.CienciaCultura{
+    color: darkblue;
+}
+
+#id{
+    background-color: darkblue;
+}
