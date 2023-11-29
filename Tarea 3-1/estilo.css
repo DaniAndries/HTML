@@ -1,4 +1,3 @@
-
 /*La diferencia entre hacerlo en CSS y hacerlo en el Index es que los cambios hechos en CSS se aplican a todos los documentos 
 vinculados mientras que en Index es individual de ésa página específica */
 
@@ -6,10 +5,50 @@ header {
     color: skyblue;
 }
 
-.CienciaCultura{
+.CienciaCultura {
     color: darkblue;
 }
 
-#id{
+#id {
     background-color: darkblue;
+}
+
+aside>p:nth-child(odd) {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+aside>p:nth-child(even) {
+    background-color: #e0e0e0;
+    color: #555;
+}
+
+aside a {
+    color: #ff00f2;
+}
+
+aside a:hover {
+    color: #ff6600;
+    background-color: #000000;
+}
+
+aside a:visited {
+    color: #8b1a1a;
+}
+
+#elemento-1>li {
+    color: blue;
+}
+
+
+#elemento-2>li {
+    color: red;
+}
+
+#elemento-1-2-1~li {
+    color: green;
+}
+
+#elemento-4-1+li {
+    color: orange;
 }
