@@ -33,7 +33,7 @@ aside a:hover {
 }
 
 aside a:visited {
-    color: #8b1a1a;
+    color: #e02929;
 }
 
 #elemento-1>li {
@@ -51,4 +51,21 @@ aside a:visited {
 
 #elemento-4-1+li {
     color: orange;
+}
+
+a[href*="com"]{
+    background-color: blue;
+}
+
+#grupo1{
+    background-color: lightblue;
+}
+
+#grupo2{
+    background-color: lightgreen;
+}
+
+#grupo1 p span:last-child, #grupo2 p span:last-child {
+    color: rgb(217, 255, 0);
+    font-weight: bold;
 }
